@@ -15,6 +15,11 @@ public class Lesson {
 
     }
 
+    Lesson(String title , String authorName) {
+        this.title = title;
+        this.authorName = authorName;
+    }
+
     Lesson() {
 
     }
